@@ -14,6 +14,10 @@
 		F840C04F2384A4E9007AC3CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F840C04E2384A4E9007AC3CA /* Assets.xcassets */; };
 		F840C0522384A4E9007AC3CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F840C0512384A4E9007AC3CA /* Preview Assets.xcassets */; };
 		F840C0552384A4E9007AC3CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F840C0532384A4E9007AC3CA /* LaunchScreen.storyboard */; };
+		F840C05D2384A630007AC3CA /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F840C05C2384A630007AC3CA /* AddBookView.swift */; };
+		F840C05F2384AA7F007AC3CA /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F840C05E2384AA7F007AC3CA /* RatingView.swift */; };
+		F840C0612384ACA8007AC3CA /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F840C0602384ACA8007AC3CA /* EmojiRatingView.swift */; };
+		F86A5A952385AD0D00C1EA3A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86A5A942385AD0D00C1EA3A /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		F840C0512384A4E9007AC3CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F840C0542384A4E9007AC3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F840C0562384A4E9007AC3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F840C05C2384A630007AC3CA /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		F840C05E2384AA7F007AC3CA /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		F840C0602384ACA8007AC3CA /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		F86A5A942385AD0D00C1EA3A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +68,11 @@
 			children = (
 				F840C0452384A4E8007AC3CA /* AppDelegate.swift */,
 				F840C0472384A4E8007AC3CA /* SceneDelegate.swift */,
+				F840C05C2384A630007AC3CA /* AddBookView.swift */,
 				F840C04C2384A4E8007AC3CA /* ContentView.swift */,
+				F840C05E2384AA7F007AC3CA /* RatingView.swift */,
+				F840C0602384ACA8007AC3CA /* EmojiRatingView.swift */,
+				F86A5A942385AD0D00C1EA3A /* DetailView.swift */,
 				F840C04E2384A4E9007AC3CA /* Assets.xcassets */,
 				F840C0532384A4E9007AC3CA /* LaunchScreen.storyboard */,
 				F840C0562384A4E9007AC3CA /* Info.plist */,
@@ -150,9 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F840C0462384A4E8007AC3CA /* AppDelegate.swift in Sources */,
+				F86A5A952385AD0D00C1EA3A /* DetailView.swift in Sources */,
 				F840C04B2384A4E8007AC3CA /* Bookworm.xcdatamodeld in Sources */,
+				F840C0612384ACA8007AC3CA /* EmojiRatingView.swift in Sources */,
 				F840C04D2384A4E8007AC3CA /* ContentView.swift in Sources */,
+				F840C05F2384AA7F007AC3CA /* RatingView.swift in Sources */,
 				F840C0482384A4E8007AC3CA /* SceneDelegate.swift in Sources */,
+				F840C05D2384A630007AC3CA /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
